@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
         fun reset() {
             for (i in films) {
                 filmsCopy.add(i)
