@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">random_film</string>
+
+    <string name="randomizer_label">Select a random movie</string>
+    <string name="randomize">Generate</string>
+
+    <string name="caution">Movie list is empty</string>
+    <string name="reset">RESET</string>
+
+    <string-array name="films">
+        <item>The Green Mile</item>
+        <item>One Flew Over the Cuckoo’s Nest</item>
+        <item>Green Book</item>
+        <item>Attack on titan</item>
+        <item>Shutter island</item>
+        <item>Inception</item>
+    </string-array>
+
+</resources>

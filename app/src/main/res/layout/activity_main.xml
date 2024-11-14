@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/randomizer_label"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/randomize_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp"
+        android:text="@string/randomize"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/random_chosen_film"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#008000"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="16dp"/>
+
+    <TextView
+        android:id="@+id/caution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="16dp"
+        android:textColor="#FF0000"
+        android:text="@string/caution"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp"
+        android:text="@string/reset"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+</LinearLayout>
